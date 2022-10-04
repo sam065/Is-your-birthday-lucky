@@ -1,0 +1,82 @@
+body {
+    margin-top: 10rem;
+    background-color: rgb(236, 162, 162);
+}
+
+h1 {
+    text-align: center;
+    font-weight: bolder;
+    color: #ed3a3d;
+    font-style: italic;
+    margin: auto;
+}
+
+.information {
+    color: black;
+    font-weight: lighter;
+    margin: 2rem auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    width: 100%;
+    max-width: 100%;
+}
+
+#date-of-birth {
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    margin: 1rem auto;
+    font-size: large;
+    background-color: white;
+    border: none;
+}
+
+#lucky-number {
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem auto;
+    font-size: large;
+    background-color: white;
+    border: none;
+}
+
+#check-number {
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem auto;
+    background-color: #ed3a3a;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+}
+
+#output-box {
+    color:  #ed3a3a;
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.footer {
+    text-align: center;
+    margin: 1rem auto;
+    font-style: italic;
+    font-weight: bolder;
+}
+.footer a{
+    text-decoration: none;
+    color: #ed3a3a;
+}
+
+.alert {
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    color: black;
+}
